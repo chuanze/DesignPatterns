@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObserverPatter", "ObserverPatter\ObserverPatter.csproj", "{B15F77AD-22AA-49DA-98C5-A3864407854B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObserverPush", "ObserverPush\ObserverPush\ObserverPush.csproj", "{AF58686D-DBCA-4B92-A530-E5FC63EB3D82}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObserverPull", "ObserverPull\ObserverPull.csproj", "{AB9DCB2B-FACA-4A30-A25C-E133AB7505C1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B15F77AD-22AA-49DA-98C5-A3864407854B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B15F77AD-22AA-49DA-98C5-A3864407854B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B15F77AD-22AA-49DA-98C5-A3864407854B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B15F77AD-22AA-49DA-98C5-A3864407854B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF58686D-DBCA-4B92-A530-E5FC63EB3D82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF58686D-DBCA-4B92-A530-E5FC63EB3D82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF58686D-DBCA-4B92-A530-E5FC63EB3D82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF58686D-DBCA-4B92-A530-E5FC63EB3D82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB9DCB2B-FACA-4A30-A25C-E133AB7505C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB9DCB2B-FACA-4A30-A25C-E133AB7505C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB9DCB2B-FACA-4A30-A25C-E133AB7505C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB9DCB2B-FACA-4A30-A25C-E133AB7505C1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
