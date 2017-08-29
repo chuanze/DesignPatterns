@@ -3,3 +3,4 @@ D:\Project\DesignPatterns\ObserverPull\bin\Debug\ObserverPull.exe
 D:\Project\DesignPatterns\ObserverPull\bin\Debug\ObserverPull.pdb
 D:\Project\DesignPatterns\ObserverPull\obj\Debug\ObserverPull.exe
 D:\Project\DesignPatterns\ObserverPull\obj\Debug\ObserverPull.pdb
+D:\Project\DesignPatterns\ObserverPull\obj\Debug\ObserverPull.csprojResolveAssemblyReference.cache

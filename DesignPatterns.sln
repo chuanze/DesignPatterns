@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObserverPush", "ObserverPus
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObserverPull", "ObserverPull\ObserverPull.csproj", "{AB9DCB2B-FACA-4A30-A25C-E133AB7505C1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestDemo", "TestDemo\TestDemo.csproj", "{A729781A-F94B-416B-852F-DF1BBC3C9D5B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{AB9DCB2B-FACA-4A30-A25C-E133AB7505C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AB9DCB2B-FACA-4A30-A25C-E133AB7505C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AB9DCB2B-FACA-4A30-A25C-E133AB7505C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A729781A-F94B-416B-852F-DF1BBC3C9D5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A729781A-F94B-416B-852F-DF1BBC3C9D5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A729781A-F94B-416B-852F-DF1BBC3C9D5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A729781A-F94B-416B-852F-DF1BBC3C9D5B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

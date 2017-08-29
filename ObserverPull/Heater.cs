@@ -10,17 +10,17 @@ namespace ObserverPull
     {
         private string type;//添加型号作为演示
         private string area;//添加产地作为演示
-        private int temperrature;//水温
+        private int temperature;//水温
         public Heater(string type, string area)
         {
             this.type = type;
             this.area = area;
-            this.temperrature = 0;
+            this.temperature = 0;
         }
 
         public string Type { get { return type; } }
         public string Area { get { return area; } }
-        public int Temperature { get { return temperrature; } }
+        public int Temperature { get { return temperature; } }
         public Heater() : this("RealFire 001", "China Xi'an") { }
         //供子类覆盖，以便子类拒绝被通知，或添加额外行为
         protected virtual void OnBoiled()
@@ -31,8 +31,8 @@ namespace ObserverPull
         {
             for (int i = 0; i <= 99; i++)
             {
-                temperrature = i + 1;
-                if (temperrature > 97)//当水快烧开时(温度>97度)，通知Observer
+                temperature = i + 1;
+                if (temperature > 97)//当水快烧开时(温度>97度)，通知Observer
                 {
                     OnBoiled();
                 }
